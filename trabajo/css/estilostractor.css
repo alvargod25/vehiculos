@@ -1,0 +1,124 @@
+    /*PROPIEDADES DEL NAVEGADOR SECUNDARIO*/    
+    .boton {
+    border: 1px solid #0e8b85; 
+    padding: 10px; 
+    background-color: #00ffff; 
+    color: #ff0000; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: 'Helvetica', sans-serif; 
+    border-radius: 50px; 
+    width:calc(100%/3);
+    text-align: center;
+    font-weight: bolder;
+    }
+    .boton:hover{
+                    background-color: blue;
+                    color: rgb(255, 255, 255);
+                }
+    div {
+    display: inline-block;
+    color: rgb(255, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    }
+
+    .titulo{
+    color: rgb(255, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    
+    }
+    section{
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    
+    }
+
+    
+
+
+/*BODY*/
+    body{ background-image: url(../img/tractor.jpg), url( https://www.deere.es/assets/images/region-2/industries/agriculture/agriculture-r2c001034-large.jpg );
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment:fixed;
+    }  
+
+    
+
+
+
+    header{ background-color: rgb(0, 0, 0) ;
+            margin-left: calc( -11px );
+            text-align: center;
+    
+    }
+
+
+    footer{
+            margin-left: -2cm;
+            margin-right: -2cm;
+            color: rgb(0, 0, 0);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgb(255, 238, 0);
+            text-align: center;
+    }
+
+/*ESTILOS DE TEXTO*/
+
+    h1{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(0, 0, 0);
+        font-size: xx-large;
+    }
+
+    h2{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(0, 0, 0);
+        font-size: x-large;
+    }
+
+    h3{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(0, 0, 0);
+        font-size: larger;
+    }
+
+    p{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(0, 0, 0);
+        font-size: medium;
+    }
+
+
+
+/*TABLA*/
+    #tabla {
+        border-collapse: separate;
+        border-spacing: 10px 20px;
+        width:100%;
+        border: 10px solid rgb(255, 247, 1);
+        background-color: rgb(0, 255, 234);
+        border-width: 10px;
+        text-align: center;
+    }
+
+    td { border: 5px solid rgb(255, 0, 0);
+        border-width: 5px;
+        border-radius: 2cm; 
+    }
+
+    td:hover { border-color: rgb(255, 111, 0) }
+
+    caption {
+        background-color: rgb(230, 173, 173);
+        text-align: left;
+        caption-side: bottom;
+      }
+
+    dialog { cursor:pointer }
+
+    #dialog-1 { float: bottom }
