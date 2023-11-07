@@ -1,4 +1,4 @@
-    /*PROPIEDADES DEL NAVEGADOR SECUNDARIO*/    
+/*PROPIEDADES DEL NAVEGADOR SECUNDARIO*/    
     .boton {
     border: 1px solid #0e8b85; 
     padding: 10px; 
@@ -8,20 +8,19 @@
     text-transform: uppercase; 
     font-family: 'Helvetica', sans-serif; 
     border-radius: 50px; 
-    width:30%;
+    width: calc((100%/3) - 30px ) ;
     text-align: center;
     font-weight: bolder;
+    display: inline-block;
     }
+
+    #boton1 { margin-left: 5px; }
+
     .boton:hover{
                     background-color: blue;
                     color: rgb(255, 255, 255);
                 }
-    div {
-    display: inline-block;
-    color: rgb(255, 0, 0);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(0, 0, 0);
-    }
+  
 
     .titulo{
     color: rgb(255, 0, 0);
@@ -45,6 +44,8 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment:fixed;
+        margin:1cm;
+        scroll-margin: 0%;
     }  
 
     
@@ -52,8 +53,8 @@
 
 
     header{ background-color: rgb(0, 0, 0) ;
-            margin-left: -2cm;
-    
+        margin-left: -2cm;
+        margin-right: -2cm;
     }
 
 
