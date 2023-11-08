@@ -122,3 +122,5 @@
     dialog { cursor:pointer }
 
     #dialog-1 { float: bottom }
+
+    #audio { text-align: right ; }
