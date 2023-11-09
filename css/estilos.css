@@ -7,20 +7,16 @@
     text-transform: uppercase; 
     font-family: 'Helvetica', sans-serif; 
     border-radius: 50px; 
-    width:30%;
+    width: calc((100%/3) - 30px ) ;
     text-align: center;
     font-weight: bolder;
-}
+    display: inline-block;
+    }
 .boton:hover{
     background-color: blue;
     color: rgb(255, 255, 255);
 }
-div {
-    display: inline-block;
-    color: rgb(255, 0, 0);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(0, 0, 0);
-    }
+#boton1 { margin-left: 5px; }
 body{
     margin: 2cm;
     background-color: rgb(0, 0, 0);
@@ -61,8 +57,8 @@ table{
     background-image: linear-gradient(black,grey,black,grey,black);
 }
 
-a:link { background-color: rgb(255, 0, 0); }
-a:visited { color: rgb(255, 196, 0) }
-a:hover { background-color: rgb(47, 255, 0); }
+
+
+
 a:active { color:rgb(0, 0, 0)}
 
