@@ -1,5 +1,5 @@
-/*PROPIEDADES DEL NAVEGADOR SECUNDARIO*/    
-    .boton {
+/*PROPIEDADES DEL NAVEGADOR PRINCIPAL*/    
+.boton {
     border: 1px solid #0e8b85; 
     padding: 10px; 
     background-color: #00ffff; 
@@ -108,19 +108,66 @@
 
     td { border: 5px solid rgb(255, 0, 0);
         border-width: 5px;
-        border-radius: 2cm; 
+        border-radius: 20px; 
+        
     }
 
-    td:hover { border-color: rgb(255, 111, 0) }
+    td:hover { border-color: rgb(255, 0, 208) }
 
     caption {
         background-color: rgb(230, 173, 173);
         text-align: left;
         caption-side: bottom;
-      }
+    }
 
-    dialog { cursor:pointer }
+    .celda {
+            width: calc((100%/3));
+    }
+
+    #celdamodified1 {
+        background-color: #00ffff;
+        
+    }
+
+    #celdamodified1:hover {
+        background-color: #3d8585;
+        border-color: rgb(255, 140, 0);
+    }
+
+
+/*CONTENIDO TABLA*/
+/*iframe*/
+    iframe {
+        border-width: 5px;
+        border-color: black;
+        border-style: inset;
+    }
+
+/*iframe-lamborghini*/
+    #lamborghini-tractors {
+        width: 90% ;
+    }
+    
+
+/*OTROS*/
+   
 
     #dialog-1 { float: bottom }
 
-    #audio { text-align: right ; }
+    #audio1 { 
+        background-color: #00ffff ;
+        border: solid 5px #ff0000; 
+    }
+
+
+/*Encuesta-footer*/    
+    #dialog-2 {
+        border-color: #ff0000;
+        border-radius: 10px;
+        border-width: 5px;
+    }
+
+    #formulario {
+        color: #005820;
+        text-align: left;
+    }
