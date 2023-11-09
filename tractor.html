@@ -60,20 +60,6 @@
     
 <!-- FIN CUADRO DE DIALOGO -->
 
-<!-- inicio ventana a _._._._ -->
-
-    
-
-    <iframe 
-        height="50%" 
-        width="50%" 
-        id="iframesound"
-        src="https://alvargod25.github.io/vehiculos/brum.html" 
-        allowfullscreen
-        frameborder="1px"
-	    alt="video"
-    ></iframe>
-    
 
 
     <h1> Titulo de primer nivel </h1>
@@ -92,9 +78,20 @@
         <th colspan="3"> table head </head> </th>
         <tr>
 
-            <td class="celda"> celda11 </td>
+            <td class="celda" colspan="2" id="celdamodified1"> 
+                <iframe 
+                    id="lamborghini-tractors"
+                    height="80%" 
+                    width="80%" 
+                    src="https://www.lamborghini-tractors.com/es-es/" 
+                    allowfullscreen
+                    frameborder="1px"
+                    alt="ERROR_NO SE PUEDE MOSTRAR CONTENIDO"
+                    title="Pagina oficial Lamborghini-tractors"
+                ></iframe>
+            </td>
 
-            <td class="celda"> celda12 </td>
+            
             <td class="celda"> celda13 </td>
         </tr>
 
@@ -117,16 +114,63 @@
 
 
 <footer>
-
+<!--AUDIO-->
     <p> Página realizada por: Alejandro Escasain</p>
     </br>
-        <audio 
-            src="media/trygve-larsen-tractor-moog-moog-country-music-118796.mp3" 
-            type="audio/mpeg"
+        <abbr title="Audio libre de derechos extraido de https://pixabay.com/es/music/">
+            <audio id="audio1" 
             autoplay
             controls
-            loop> 
-        </audio>
+            loop
+            alt="TEXTO NO SOPORTADO POR EL NAVEGADOR"> 
+
+            <source src="media/trygve-larsen-tractor-moog-moog-country-music-118796 _1.ogg">
+                <source src="media/trygve-larsen-tractor-moog-moog-country-music-118796 _2.wav">
+                    <source src="media/trygve-larsen-tractor-moog-moog-country-music-118796.mp3">
+
+        </audio></abbr>
+
+<!--Formulario-->
+    <dialog id="dialog-2">
+        <h1>Danos tu opinión:</h1>
+
+
+        <div id="formulario">
+            <form action="Barrio la Cuesta-INICIO.html" method="post" > 
+
+                Nombre: 
+                <input type="text" name="Nombre"/> <br/>
+                Correo electrónico: <input type="email" name="correo" size="40" placeholder="Opcional"><br/><br/>
+
+                ¿Como calificarías la pagina del 1 al 10? <br/>
+                <input type="radio" name="Nota" value="1" required/> 1-Muy mala <br/>
+                <input type="radio" name="Nota" value="2" /> 2 <br/>
+                <input type="radio" name="Nota" value="3" /> 3 <br/>
+                <input type="radio" name="Nota" value="4" /> 4 <br/>
+                <input type="radio" name="Nota" value="5" /> 5 <br/>
+                <input type="radio" name="Nota" value="6" /> 6 <br/>
+                <input type="radio" name="Nota" value="7" /> 7 <br/>
+                <input type="radio" name="Nota" value="8" /> 8 <br/>
+                <input type="radio" name="Nota" value="9" /> 9 <br/>
+                <input type="radio" name="Nota" value="10" /> 10-Muy Buena <br/>
+               
+
+
+                Criticas constructivas: <br/>
+                <textarea name="mensaje" id="mensaje-1" cols="30" rows="10" placeholder="Escriba el mensaje">  </textarea> <br/><br/>
+                <input type="submit" value="Enviar"/>
+            </form>
+        </div>
+
+
+        <p>
+            <input type="button" value="Cerrar" onclick="document.getElementById('dialog-2').removeAttribute('open')">
+        </p>
+    </dialog>
+    
+    <p>
+        <input type="button" value="Encuesta" onclick="document.getElementById('dialog-2').setAttribute('open', 'open')">
+    </p>
 
 </footer>
 
