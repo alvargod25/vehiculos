@@ -1,0 +1,65 @@
+
+.boton{
+    border: 1px solid #0e8b85;
+    padding: 10px;
+    background-color: #00ffff;
+    color:  #ff0000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px;
+    font-weight: bolder;
+    width: 48%;
+    text-align: center;
+    height: 550px;
+}
+
+div{display: inline-block;}
+
+#boton1:hover{background-image: url("https://img.remediosdigitales.com/4ceea9/mazda787b-1/1366_2000.jpg") ;
+background-size: cover;}
+#boton2:hover{background-image: url("https://storage.kawasaki.eu/public/kawasaki.eu/en-EU/model/17ZX1000Y_201GY3DRS00D_C.png");
+background-size: cover;}
+
+.botoninicio{
+    border: 1px solid #0e8b85;
+    padding: 10px;
+    background-color: #00ffff;
+    color: #ff0000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px;
+    font-weight: bolder;
+    width: 31%;
+    text-align: center;}
+
+.botoninicio:hover{
+        background-color: blue;
+        color: rgb(255, 255, 255);}
+
+body{background-color: black;
+color: #ffffff;}    
+
+.titulo{
+    color: rgb(255, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    text-align: center;}
+
+h2{
+    color: rgb(255, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    text-align: left;}    
+    .bajo{
+        background-image: linear-gradient(red, yellow,red);
+        height: 1cm;
+        margin-left: -2cm;
+        margin-right: -2cm;
+    }
+
+li a:link{color:blue}
+li a:visited{color:yellow}
+li a:hover{color:aqua}
+li a:active{color:#ff0000}
