@@ -176,7 +176,7 @@
 
 /*contecto email*/
 #linkcorreo {
-    color: black;
+    color: blue;
     text-decoration:none;
    font-weight: bold;
 }
@@ -187,7 +187,7 @@
 }
 
 #linkcorreo:hover {
-    color: black;
+    color: aqua ;
     font-weight: bold;
     text-decoration: underline;
     background-color: white;
@@ -196,10 +196,6 @@
 
 #linkcorreo:visited {
     font-weight: bold;
-    color: white;
+    color: yellow;
     text-decoration: underline double;
 }
-    #formulario {
-        color: #005820;
-        text-align: left;
-    }
