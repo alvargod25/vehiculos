@@ -1,4 +1,4 @@
-/*PROPIEDADES DEL NAVEGADOR PRINCIPAL*/    
+    /*PROPIEDADES DEL NAVEGADOR PRINCIPAL*/    
 .boton {
     border: 1px solid #0e8b85; 
     padding: 10px; 
@@ -126,6 +126,7 @@
 
     #celdamodified1 {
         background-color: #00ffff;
+        height: 500px;
         
     }
 
@@ -146,6 +147,7 @@
 /*iframe-lamborghini*/
     #lamborghini-tractors {
         width: 90% ;
+        height: 90%;
     }
     
 
@@ -167,6 +169,36 @@
         border-width: 5px;
     }
 
+    #formulario {
+        color: #005820;
+        text-align: left;
+    }
+
+/*contecto email*/
+#linkcorreo {
+    color: black;
+    text-decoration:none;
+   font-weight: bold;
+}
+
+#linkcorreoimg {
+    color: rgb(3, 24, 255);
+    width: 10%;
+}
+
+#linkcorreo:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: white;
+
+}
+
+#linkcorreo:visited {
+    font-weight: bold;
+    color: white;
+    text-decoration: underline double;
+}
     #formulario {
         color: #005820;
         text-align: left;
