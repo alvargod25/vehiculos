@@ -1,35 +1,32 @@
+/*Body*/
 body{
     margin: 2cm;
     background-color: rgb(0, 0, 0);
     margin-top: 0cm;
-    color: rgb(255, 255, 255);
-    }
+    color: rgb(255, 255, 255);}
+/*Titulos*/
 .titulo{
     color: rgb(255, 0, 0);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(0, 0, 0);
-    text-align: center;
-    
-}
+    text-align: center;}
 
-    
 h2{
     color: rgb(255, 0, 0);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(0, 0, 0);
-    text-align: left;}    
+    text-align: left;} 
+/*Sections*/
     .bajo{
         background-image: linear-gradient(red, yellow,red);
         height: 1cm;
         margin-left: -2cm;
-        margin-right: -2cm;
-    }
+        margin-right: -2cm;}
 section{
     color: rgb(0, 0, 0);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(0, 0, 0);
-    
-}
+    background-color: rgb(0, 0, 0);}
+/*Botones*/
 .boton {
     border: 1px solid #0e8b85; 
     padding: 10px; 
@@ -41,22 +38,14 @@ section{
     border-radius: 50px; 
     width:30%;
     text-align: center;
-    font-weight: bolder;
-}
+    font-weight: bolder;}
 .boton:hover{
     background-color: blue;
-    color: rgb(255, 255, 255);
-}
+    color: rgb(255, 255, 255);}
 div {
     display: inline-block;
     color: rgb(255, 0, 0);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(0, 0, 0);
-    }
-    .bajo{
-        background-image: linear-gradient(red, yellow,red);
-        height: 1cm;
-        margin-left: -2cm;
-        margin-right: -2cm;
-    }
+    background-color: rgb(0, 0, 0);}
+
     
