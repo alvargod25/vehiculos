@@ -1,4 +1,4 @@
-    /*PROPIEDADES DEL NAVEGADOR PRINCIPAL*/    
+   /*PROPIEDADES DEL NAVEGADOR PRINCIPAL*/    
 .boton {
     border: 1px solid #0e8b85; 
     padding: 10px; 
@@ -58,7 +58,7 @@
     }
 
 
-     footer{
+    footer{
             margin-left: -2cm;
             margin-right: -2cm;
             color: rgb(0, 0, 0);
@@ -70,6 +70,8 @@
     .bajo{
         background-image: linear-gradient(red, yellow,red);
     }
+
+  
 
 /*ESTILOS DE TEXTO*/
 
@@ -158,13 +160,21 @@
 /*OTROS*/
    
 
-    #dialog-1 { float: bottom }
+    #dialog-1 { float: bottom; 
+        width: 90%;
+        height: 100%;
+        text-align: center;
+    }
 
     #audio1 { 
         background-color: #00ffff ;
         border: solid 5px #ff0000; 
     }
 
+    #Video {
+        width: 80%;
+        height: 80%;
+    }
 
 /*Encuesta-footer*/    
     #dialog-2 {
