@@ -1,3 +1,14 @@
+body{
+    margin: 2cm;
+    background-color: rgb(0, 0, 0);
+    font-family: "sans-serif";
+    color: rgb(255, 255, 255);
+    }
+#cabezera{
+    margin-left: -2cm;
+    margin-right: -2cm;
+    padding: 50px;
+}
 .boton {
     border: 1px solid #0e8b85; 
     padding: 10px; 
@@ -12,23 +23,14 @@
     font-weight: bolder;
     display: inline-block;
     }
-#cabezera{
-    margin-left: -2cm;
-    margin-right: -2cm;
-    padding: 50px;
-}
+
 
 .boton:hover{
     background-color: blue;
     color: rgb(255, 255, 255);
 }
 
-body{
-    margin: 2cm;
-    background-color: rgb(0, 0, 0);
-    
-    color: rgb(255, 255, 255);
-    }
+
 .titulo{
     color: rgb(255, 0, 0);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
