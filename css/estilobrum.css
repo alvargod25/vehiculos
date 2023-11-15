@@ -27,8 +27,7 @@ h2{
     font-weight: bolder;
     width: 48%;
     text-align: center;
-    height: 550px;
-}
+    height: 550px;}
 
 div{display: inline-block;}
 
@@ -53,16 +52,12 @@ background-size: cover;}
 .botoninicio:hover{
         background-color: blue;
         color: rgb(255, 255, 255);}
-
- 
-
- 
+ /*Sections*/
     .bajo{
         background-image: linear-gradient(red, yellow,red);
         height: 1cm;
         margin-left: -2cm;
-        margin-right: -2cm;
-    }
+        margin-right: -2cm;}
 /*Links*/
 li a:link{color:blue}
 li a:visited{color:yellow}
