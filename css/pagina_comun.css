@@ -1,0 +1,32 @@
+
+body {
+    background-color: black;
+    margin: 1cm;
+    text-align: center;
+}
+
+table {
+    background-color: white;
+    
+    border: yellow 5px solid;
+    border-collapse: separate;
+    border-spacing: 10px 20px;
+    width: 100%;
+    text-align: center top;
+
+}
+
+
+td {
+    width: calc((100%/3));
+    border: 7px red solid;
+    height: fit-content;
+    
+}
+
+
+#imagenes {
+    width: 100% ;
+
+}
+
