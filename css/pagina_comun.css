@@ -1,7 +1,7 @@
 
 body {
     background-color: black;
-    margin: 1cm;
+    
     text-align: center;
 }
 
@@ -30,4 +30,4 @@ td {
 
 }
 
-#h1_tabla {color: black}
+#h1_tabla {color: red}
