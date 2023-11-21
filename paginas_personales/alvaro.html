@@ -16,18 +16,10 @@
             </circle>
             <circle cx="120px" cy="85px" r="10px" fill="blue">
             </circle>
-            <line x1="80px" y1="120px" x2="100px" y2="140px" style="stroke:blue">
-                <animate attributeName="y1" from="120px" to="140px" dur="2s" repeatcount="10">
+            <polygon points="80,120 100,140 120,120" style="fill:white; stroke:black ; stroke-width:3px">
+                <animate attributeName="points" from="80,120 100,140 120,120" to="80,140 100,120 120,140" dur="2s" repeatcount="10">
                 </animate>
-                <animate attributeName="y2" from="140px" to="120px" dur="2s" repeatcount="10">
-                </animate>
-            </line>
-            <line x1="100px" y1="140px" x2="120px" y2="120px" style="stroke:blue">
-                <animate attributeName="y1" from="140px" to="120px" dur="2s" repeatcount="10">
-                </animate>
-                <animate attributeName="y2" from="120px" to="140px" dur="2s" repeatcount="10">
-                </animate>
-            </line>
+            </polygon>
             
         </svg>
         
