@@ -1,15 +1,28 @@
 body{
     background-color: black;
-    text-align: center;
+
 }
 .cabezera{
     display:inline-block
-
-}
-h1{
-    color: red;
     
 }
-img{
-    align-items: left;
+#img{
+    display:inline-block ;
+    width: 20%;
+}
+#name{
+    color: red;
+    
+    width: 58%;
+}
+#svg{
+    display:inline-block;
+    
+    width: 20%;
+}
+footer{text-align: center;}
+
+header{
+    width: 100%;
+    text-align: center;
 }
