@@ -32,15 +32,15 @@ header{
 }
 @media screen and (max-width:800px)
 { #img{
-    display: :default;
+    display: block;
     width: 100%;
 }
 #name{
-    display: :default;
+    display: block;
     width: 100%;
 }
 #svg{
-    display: :default;
+    display: block;
     width: 100%;
     text-align: center;
 }
