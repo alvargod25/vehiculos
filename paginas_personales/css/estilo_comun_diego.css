@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+.cabezera{
+    display:inline-block 
+}
+#img{
+    display:inline-block ;
+    width: 20%;
+}
+#name{
+    color: red;
+    display:inline-block;
+    width: 58%;
+}
+#svg{
+    display:inline-block;
+    
+    width: 20%;
+}
+footer{text-align: center;}
+
+header{
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width:800px)
+{
+#img{display:block;
+width:100%}
+#name{display:block;
+width:100%}
+#svg{display:block;
+width:100%}
+}
